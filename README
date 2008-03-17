@@ -1,0 +1,69 @@
+perl-HTML-Tree
+------------------------------------------
+HTML-Tree is a suite of Perl modules for making parse trees out of HTML 
+source. It consists of mainly two modules, whose documentation you 
+should refer to: HTML::TreeBuilder and HTML::Element.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/HTML-Tree/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/P/PE/PETEK/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-HTML-Tree-3.23-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-HTML-Tree-3.23-X.cygport all
+
+This will create:
+  /usr/src/perl-HTML-Tree-3.23-X-src.tar.bz2
+  /usr/src/perl-HTML-Tree-3.23-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/HTML/AsSubs.pm
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Element.pm
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Element/traverse.pm
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Parse.pm
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Tree.pm
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Tree/AboutObjects.pod
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Tree/AboutTrees.pod
+  /usr/lib/perl5/vendor_perl/5.10/HTML/Tree/Scanning.pod
+  /usr/lib/perl5/vendor_perl/5.10/HTML/TreeBuilder.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/HTML-Tree/.packlist
+  /usr/share/doc/perl-HTML-Tree-3.23/Changes
+  /usr/share/doc/perl-HTML-Tree-3.23/README
+  /usr/share/doc/perl-HTML-Tree-3.23/TODO
+  /usr/share/man/man3/HTML.AsSubs.3pm.gz
+  /usr/share/man/man3/HTML.Element.3pm.gz
+  /usr/share/man/man3/HTML.Element.traverse.3pm.gz
+  /usr/share/man/man3/HTML.Parse.3pm.gz
+  /usr/share/man/man3/HTML.Tree.3pm.gz
+  /usr/share/man/man3/HTML.Tree.AboutObjects.3pm.gz
+  /usr/share/man/man3/HTML.Tree.AboutTrees.3pm.gz
+  /usr/share/man/man3/HTML.Tree.Scanning.3pm.gz
+  /usr/share/man/man3/HTML.TreeBuilder.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 3.23-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
