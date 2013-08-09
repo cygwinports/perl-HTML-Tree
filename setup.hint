@@ -1,6 +1,0 @@
-category: Perl
-requires: perl
-sdesc: "Perl HTML tree parser module"
-ldesc: "HTML-Tree is a suite of Perl modules for making parse trees out 
-of HTML source. It consists of mainly two modules, whose documentation 
-you should refer to: HTML::TreeBuilder and HTML::Element."
