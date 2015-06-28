@@ -3,9 +3,11 @@ inherit perl
 
 NAME="perl-HTML-Tree"
 VERSION=5.03
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl HTML tree parser module"
 DESCRIPTION="HTML-Tree is a suite of Perl modules for making parse trees out
 of HTML source. It consists of mainly two modules, whose documentation you
 should refer to: HTML::TreeBuilder and HTML::Element."
+
+ARCH=noarch
